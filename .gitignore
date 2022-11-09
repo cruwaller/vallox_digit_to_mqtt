@@ -1,0 +1,8 @@
+.pio
+.vscode
+private_flags.txt
+*.code-workspace
+*.log
+dump.txt
+__pycache__
+*.pyc

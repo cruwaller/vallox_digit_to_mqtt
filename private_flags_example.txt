@@ -1,0 +1,12 @@
+#==== WIFI connection defaults ====
+WIFI_AP_SSID="my_charger"
+WIFI_AP_PSK="mycharger"
+
+#==== MQTT connection parameters ====
+#MQTT_SERVER="\"192.168.1.2\""
+#MQTT_PORT=1883
+#MQTT_USER="\"default user name\""
+#MQTT_PASSWD="\"...\""
+#MQTT_HA_DISCOVERY_PREFIX="\"homeassistant\""
+#MQTT_CLIENT_PREFIX="\"home/MyEVSE_MQTT\""
+#MQTT_STATUS_DELAY_S=300
