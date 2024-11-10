@@ -33,7 +33,7 @@ static HAMqttDevice dev_fan_speed("Fan Speed", HAMqttDevice::SELECT, "", "mdi:fa
 static HAMqttDevice dev_fan_speed_base("Fan Speed Basic", HAMqttDevice::SELECT, "", "mdi:fan");
 
 static HAMqttDevice dev_humidity("Humidity", HAMqttDevice::SENSOR, HAMqttDevice::CLASS_HUMIDITY, "%");  // mdi:water-percent
-static HAMqttDevice dev_carbon_dioxide("CO2", HAMqttDevice::SENSOR, HAMqttDevice::CLASS_CO2, "PPM");  // mdi:molecule-co2
+static HAMqttDevice dev_carbon_dioxide("CO2", HAMqttDevice::SENSOR, HAMqttDevice::CLASS_CO2, "ppm");  // mdi:molecule-co2
 
 static HAMqttDevice dev_power("Power", HAMqttDevice::SWITCH, "", "mdi:power");
 static HAMqttDevice dev_carbon_dioxide_en("CO2 Control", HAMqttDevice::SWITCH, "", "mdi:toggle-switch-outline");
